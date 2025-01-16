@@ -89,7 +89,7 @@ List DUMMY_MEAL = [
       isVegetarian: true),
   Meal(
       id: 'm2',
-      categories: ['c2'],
+      categories: ['c3','c1'],
       title: 'Toast Hawaii',
       imageUrl: "https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg",
       ingredients:[
@@ -112,8 +112,32 @@ List DUMMY_MEAL = [
       isVegan: false,
       isVegetarian: false),
   Meal(
-      id: 'm2',
-      categories: ['c2'],
+      id: 'm3',
+      categories: ['c3'],
+      title: 'Toast Hawaii',
+      imageUrl: "https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg",
+      ingredients:[
+        '1 Slice White Bread ',
+        '1 Slice ham',
+        '1 Slice Pineapple  ',
+        '1-2 Slice of chees ',
+        'one ',
+      ] ,
+      steps: [
+        'Butter one side of the white bread  ',
+        'Layer ham the pineapple and chees on the white bread',
+        'Bake the toast  for round about 10 minutes in the oven at 200"c',
+      ],
+      duration: 10,
+      complexity: Complexity.Simple,
+      affordebility: Affordebility.Affordeble,
+      isGlutenFree: false,
+      isLactoseFree: false,
+      isVegan: false,
+      isVegetarian: false),
+  Meal(
+      id: 'm4',
+      categories: ['c4'],
       title: 'Toast Hawaii',
       imageUrl: "https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg",
       ingredients:[
@@ -136,8 +160,8 @@ List DUMMY_MEAL = [
       isVegan: false,
       isVegetarian: false),
   Meal(
-      id: 'm2',
-      categories: ['c2'],
+      id: 'm5',
+      categories: ['c5','c4'],
       title: 'Toast Hawaii',
       imageUrl: "https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg",
       ingredients:[
@@ -160,8 +184,8 @@ List DUMMY_MEAL = [
       isVegan: false,
       isVegetarian: false),
   Meal(
-      id: 'm2',
-      categories: ['c2'],
+      id: 'm6',
+      categories: ['c6','c2'],
       title: 'Toast Hawaii',
       imageUrl: "https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg",
       ingredients:[
@@ -184,8 +208,8 @@ List DUMMY_MEAL = [
       isVegan: false,
       isVegetarian: false),
   Meal(
-      id: 'm2',
-      categories: ['c2'],
+      id: 'm7',
+      categories: ['c7'],
       title: 'Toast Hawaii',
       imageUrl: "https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg",
       ingredients:[
@@ -208,8 +232,8 @@ List DUMMY_MEAL = [
       isVegan: false,
       isVegetarian: false),
   Meal(
-      id: 'm2',
-      categories: ['c2'],
+      id: 'm8',
+      categories: ['c8'],
       title: 'Toast Hawaii',
       imageUrl: "https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg",
       ingredients:[
@@ -232,8 +256,8 @@ List DUMMY_MEAL = [
       isVegan: false,
       isVegetarian: false),
   Meal(
-      id: 'm2',
-      categories: ['c2'],
+      id: 'm9',
+      categories: ['c9'],
       title: 'Toast Hawaii',
       imageUrl: "https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg",
       ingredients:[
@@ -256,32 +280,8 @@ List DUMMY_MEAL = [
       isVegan: false,
       isVegetarian: false),
   Meal(
-      id: 'm2',
-      categories: ['c2'],
-      title: 'Toast Hawaii',
-      imageUrl: "https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg",
-      ingredients:[
-        '1 Slice White Bread ',
-        '1 Slice ham',
-        '1 Slice Pineapple  ',
-        '1-2 Slice of chees ',
-        'Butter ',
-      ] ,
-      steps: [
-        'Butter one side of the white bread  ',
-        'Layer ham the pineapple and chees on the white bread',
-        'Bake the toast  for round about 10 minutes in the oven at 200"c',
-      ],
-      duration: 10,
-      complexity: Complexity.Simple,
-      affordebility: Affordebility.Affordeble,
-      isGlutenFree: false,
-      isLactoseFree: false,
-      isVegan: false,
-      isVegetarian: false),
-  Meal(
-      id: 'm2',
-      categories: ['c2'],
+      id: 'm10',
+      categories: ['c10'],
       title: 'Toast Hawaii',
       imageUrl: "https://cdn.pixabay.com/photo/2018/07/11/21/51/toast-3532016_1280.jpg",
       ingredients:[
